@@ -170,6 +170,7 @@
     
     // finally, remove the destroyed seal
     [seal removeFromParent];
+    [explosion removeFromParent];
 }
 
 @end
