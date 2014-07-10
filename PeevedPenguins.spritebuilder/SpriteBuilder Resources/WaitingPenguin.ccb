@@ -2352,11 +2352,11 @@
 			<key>length</key>
 			<real>4</real>
 			<key>name</key>
-			<string>BlankAndJump</string>
+			<string>BlinkAndJump</string>
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.066666670143604279</real>
+			<real>1.2999999523162842</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

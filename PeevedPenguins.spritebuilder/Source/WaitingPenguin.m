@@ -16,7 +16,7 @@
     float delay = (arc4random() % 2000) / 1000.f;
     
     // call method to start animation after random delay
-    [self performSelector:@selector(starBlinkAndJump) withObject:nil afterDelay:delay];
+    [self performSelector:@selector(startBlinkAndJump) withObject:nil afterDelay:delay];
 }
 
 - (void)startBlinkAndJump
@@ -25,7 +25,7 @@
     CCAnimationManager *animationManager = self.animationManager;
     
     // timelines can be referenced and run by name
-    [animationManager runAnimationsForSequenceNamed:@"BlankAndJump"];
+    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
 }
 
 @end
